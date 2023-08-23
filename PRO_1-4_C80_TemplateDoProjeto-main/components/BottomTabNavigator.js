@@ -18,9 +18,9 @@ export default class BottomTabNavigator extends Component {
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
 //Preencha com o código que falta para adicionar o "route name"
-            if (route.name === " ") {
+            if (route.name === "Alugue uma bicicleta ") {
                 iconName = "bicycle";
-              } else if (route.name === " ") {
+              } else if (route.name === " Histórico de locações") {
                 iconName = "time";
               }  
 
@@ -36,8 +36,8 @@ export default class BottomTabNavigator extends Component {
           })}
           tabBarOptions={{
             //preencha o código para adicionar #FBE5C0 para activeTintColor e black (preto) para inactiveTintColor
-           activeTintColor: " ",
-           inactiveTintColor: " ",
+           activeTintColor: "#fbe5c0 ",
+           inactiveTintColor: "black ",
             style: {
               height: 100,
               borderTopWidth: 0,
